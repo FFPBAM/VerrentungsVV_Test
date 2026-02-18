@@ -42,7 +42,7 @@ import numpy as np
 # ---------------------------------------------------------------------------
 
 # Path to Excel file with MSCI World, REXP, CPI
-DATA_FILE = Path(r"C:\Users\Bloomberg\Documents\Python_Scripts\Verrentung_Streamlit\Daten Verrentung.xlsx")
+DATA_FILE = Path(r"Daten Verrentung.xlsx")
 
 # Portfolio weights (must sum to 1.0)
 PORTFOLIO_WEIGHTS = {
@@ -1816,3 +1816,4 @@ def run_app() -> None:
 
 if __name__ == "__main__":
     run_app()
+
